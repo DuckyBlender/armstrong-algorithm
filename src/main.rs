@@ -26,7 +26,7 @@ fn no_of_digits(mut num: i32) -> i32 {
 fn narcissistic(max: i32) {
     let current_time = std::time::Instant::now();
     // Loop through numbers
-    for i in 1..max {
+    for i in 1..=max {
         let mut temp = i; // we need to keep the original number
         let length = no_of_digits(i);
         let mut sum = 0;
