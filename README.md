@@ -1,6 +1,6 @@
-# narcissistic-algorythm
+# armstrong-algorythm
 
-Simple algorythm in Rust that calculates n numbers of narcissistic numbers (<https://en.wikipedia.org/wiki/Narcissistic_number>)
+Simple algorythm in Rust that calculates n numbers of armstrong numbers (<https://en.wikipedia.org/wiki/Narcissistic_number>)
 
 ## How to run
 

@@ -11,7 +11,7 @@ fn main() {
     let max: i32 = input.trim().parse().expect("Not a number");
 
     // Number crunching time!
-    narcissistic(max);
+    calculate_armstrong(max);
 }
 
 fn no_of_digits(mut num: i32) -> i32 {
@@ -23,7 +23,7 @@ fn no_of_digits(mut num: i32) -> i32 {
     i
 }
 
-fn narcissistic(max: i32) {
+fn calculate_armstrong(max: i32) {
     let current_time = std::time::Instant::now();
     // Loop through numbers
     for i in 1..=max {
