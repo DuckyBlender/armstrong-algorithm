@@ -10,6 +10,4 @@ For getting the number of calculations:
 
 `cargo run --release`
 
-For fast mode:
-
-`cargo run --release -- --fast`
+Then type the amount of numbers you want to check!
